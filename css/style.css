@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#logo {
+  width: 50vw;
+  left: 50%;
+  top: 45px;
+  transform: translateX(-50%);
+}
+
+#hamburgerbutton {
+  height: 15px;
+  top: 10px;
+  left: 50%;
+  transform: translatex(-50%);
+}
+
+header {
+  height: 100vh;
+  background-image: url(/media/dough.jpeg);
+  background-size: 100vw 100vh;
+  background-repeat: no-repeat;
+}
+header img {
+  position: absolute;
+}/*# sourceMappingURL=style.css.map */
