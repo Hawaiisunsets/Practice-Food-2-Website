@@ -90,7 +90,31 @@ header h1 {
 #readmore {
   width: 200px;
   border: solid black 2px;
-  padding: 0.5em 0;
+  padding: 0.5em auto;
   justify-self: center;
   margin: 5vh;
+}
+
+#carousel {
+  position: relative;
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.3);
+}
+#carousel img {
+  width: 100vw;
+}
+#carousel div {
+  position: absolute;
+  top: 15%;
+  color: white;
+}
+#carousel p {
+  font-size: 1.5em;
+}
+
+#menu {
+  display: grid;
+  margin-top: 5vh;
+}
+#menu div {
+  margin-top: 5vh;
 }/*# sourceMappingURL=style.css.map */
