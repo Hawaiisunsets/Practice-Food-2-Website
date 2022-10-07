@@ -3,6 +3,14 @@
   padding: 0;
 }
 
+.font-small {
+  font-size: 0.75rem;
+}
+
+.font-large {
+  font-size: 2rem;
+}
+
 #logo {
   width: 50vw;
   top: 45px;
@@ -36,4 +44,33 @@ header div {
 }
 header h1 {
   margin-bottom: 1em;
+  font-size: 2rem;
+}
+
+#aboutus {
+  height: 50vh;
+}
+#aboutus p {
+  text-align: center;
+}
+
+#articles {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+}
+#articles img {
+  width: 100%;
+}
+#articles div {
+  text-align: center;
+}
+#articles div > p:nth-of-type(3) {
+  font-size: 0.75em;
+}
+#articles div a:visted, #articles div a:link {
+  color: black;
+}
+
+.font-bold {
+  font-weight: bold;
 }/*# sourceMappingURL=style.css.map */

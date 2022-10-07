@@ -1,5 +1,16 @@
 @use "general";
 $hamburger_height: 15px;
+$section_height: 50vh;
+$font_large: 2rem;
+$font_small: 0.75rem;
+
+.font-small{
+    font-size: $font_small;
+}
+
+.font-large{
+    font-size: $font_large;
+}
 
 #logo{
     width: 50vw;
@@ -33,5 +44,35 @@ header{
     }
         h1{
                 margin-bottom: 1em;
+                font-size: $font_large;
         }    
+}
+
+#aboutus{
+    height: $section_height;
+    p{
+        text-align: center;
+    }
+}
+
+#articles{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    img{
+        
+        width: 100%;
+    }
+    div{
+        text-align: center;
+        > p:nth-of-type(3){
+            font-size: 0.75em;
+        }
+        a:visted, a:link{
+            color: black;
+        }
+    }
+}
+
+.font-bold{
+    font-weight: bold;
 }
