@@ -7,6 +7,14 @@
   font-size: 0.75rem;
 }
 
+.text-center {
+  text-align: center;
+}
+
+.font-bold {
+  font-weight: bold;
+}
+
 .font-large {
   font-size: 2rem;
 }
@@ -71,6 +79,18 @@ header h1 {
   color: black;
 }
 
-.font-bold {
-  font-weight: bold;
+#events {
+  display: grid;
+  margin-top: 5vh;
+}
+#events div {
+  margin-top: 5vh;
+}
+
+#readmore {
+  width: 200px;
+  border: solid black 2px;
+  padding: 0.5em 0;
+  justify-self: center;
+  margin: 5vh;
 }/*# sourceMappingURL=style.css.map */

@@ -8,6 +8,13 @@ $font_small: 0.75rem;
     font-size: $font_small;
 }
 
+.text-center{
+    text-align: center;
+}
+.font-bold{
+    font-weight: bold;
+}
+
 .font-large{
     font-size: $font_large;
 }
@@ -43,8 +50,8 @@ header{
         text-align: center; 
     }
         h1{
-                margin-bottom: 1em;
-                font-size: $font_large;
+        margin-bottom: 1em;
+        font-size: $font_large;
         }    
 }
 
@@ -73,6 +80,19 @@ header{
     }
 }
 
-.font-bold{
-    font-weight: bold;
+#events{
+    display: grid;
+    margin-top: 5vh;
+    div{
+        margin-top: 5vh;
+    }
+}
+
+#readmore{
+    width: 200px;
+    border: solid black 2px;
+    padding: 0.5em 0;
+    justify-self: center;
+    margin: 5vh;
+    
 }
